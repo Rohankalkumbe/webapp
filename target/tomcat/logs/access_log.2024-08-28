@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:57:10 +0530] "GET /webapp HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:57:12 +0530] "GET /webapp/ HTTP/1.1" 200 2868 http-bio-9090-exec-3 1404
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:57:12 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:57:36 +0530] "GET /webapp/?username=Rohan&password=Rohan%40123 HTTP/1.1" 200 2868 http-bio-9090-exec-5 7
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:58:36 +0530] "GET /webapp/?username=Rohan&password=Rohan%2540123%23 HTTP/1.1" 200 2868 http-bio-9090-exec-6 7
+0:0:0:0:0:0:0:1 - - [28/Aug/2024:18:59:31 +0530] "GET /webapp/?username=Rohan&password=Rohan%252540123%2523%23 HTTP/1.1" 200 2868 http-bio-9090-exec-8 8
